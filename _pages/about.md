@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 I graduated with a Bachelor's degree in `Computer Science` in July 2022 & my interests primarily lie in 1. Building meaningful products that's useful in our everyday lives; & 2. Using a data-driven approach to understand the world at large; specifically, online discussions & communities.
 
-Currently, I'm working as a `Software Development Engineer (SDE-1)` at `Textify AI`. I'm also working as a `Visiting Data Science Researcher` on a project to analyze the contents of a subreddit using NLP & text analysis tools with a research scientist at `Bell Labs`.
+Currently, I'm working as a `Software Development Engineer (SDE-1)` at `Textify AI`. I'm also working as a `Visiting Researcher` on a project to analyze the contents of subreddits & study health discussions on social media, using NLP & text analysis tools with research scientists at `Nokia Bell Labs, Cambridge`.
 
 I'm actively looking for Software Engineering or Data Science roles.
 Feel free to reach out to me via email or LinkedIn. :) Find my resume here: [Link](https://bit.ly/adasdevresume).
