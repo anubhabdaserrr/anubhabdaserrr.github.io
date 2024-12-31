@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://anubhabdaserrr.github.io/sitemap.xml
+Sitemap: https://anubhabdas.com/sitemap.xml
