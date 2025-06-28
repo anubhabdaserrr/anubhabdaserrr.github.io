@@ -55,7 +55,7 @@
     }
 
     .glow-pulse {
-      animation: pulseGlow 2s ease-in-out infinite;
+      animation: pulseGlow 3s ease-in-out infinite;
     }
 
     a {
@@ -229,9 +229,10 @@
     }
 
     :root {
-  --shared-p-font-size: clamp(0.5rem, 1vw, 0.8rem);
-  --smaller-p-font-size: clamp(0.4rem, 0.9vw, 0.7rem); /* Just slightly smaller */
-}
+      --shared-p-font-size: clamp(0.5rem, 1vw, 0.8rem);
+      --smaller-p-font-size: clamp(0.4rem, 0.9vw, 0.7rem);
+      /* Just slightly smaller */
+    }
 
     .top-left-overlay h1 {
       font-size: clamp(0.5rem, 1.2vw, 1.8rem);
@@ -266,14 +267,16 @@
 
     .bottom-overlays {
       position: absolute;
-      bottom: 0.2rem;
+      bottom: 0.1rem;
       left: 1rem;
       right: 1rem;
       display: flex;
       gap: 1rem;
       justify-content: space-between;
       flex-wrap: wrap;
+      align-items: flex-start;
       max-width: 100%;
+      padding-bottom: 0.5rem;
     }
 
     .bottom-right-overlay {
@@ -284,16 +287,18 @@
 
 
     .bottom-right-overlay {
-      flex: 1 1 45%;
-      font-size: var(--smaller-p-font-size);/*clamp(0.7rem, 1.3vw, 0.7rem);*/
+      min-width: 250px;
+      flex: 1 1 auto;
+      font-size: var(--smaller-p-font-size);
       font-weight: 300;
       font-family: inherit;
       color: #fff;
     }
 
     .bottom-left-overlay {
-      flex: 1 1 45%;
-      font-size: var(--smaller-p-font-size); /*clamp(0.7rem, 1.3vw, 0.7rem);*/
+      min-width: 250px;
+      flex: 1 1 auto;
+      font-size: var(--smaller-p-font-size);
       font-weight: 300;
       font-family: inherit;
       color: #fff;
@@ -311,8 +316,15 @@
       text-decoration: underline;
     }
 
+    .bottom-right-overlay-text {
+      display: flex;
+      align-items: end;
+    }
+
     @media (max-width: 768px) {
       .bottom-overlays {
+
+        gap: 0.4rem;
         flex-direction: column;
         align-items: flex-start;
       }
@@ -320,6 +332,11 @@
       .bottom-left-overlay,
       .bottom-right-overlay {
         flex: 1 1 100%;
+text-align: left; /* Add this line */
+    align-items: flex-start; /* Useful if any flex child elements */
+
+
+
       }
     }
 
@@ -425,13 +442,15 @@
       <!-- Bottom Right Overlay -->
       <div class="bottom-right-overlay">
         <p>
+        <div class="bottom-right-overlay-text">
           <i>Visualization by <a href="https://www.linkedin.com/in/anubhabdaserrr/" target="_blank">Anubhab
-              Das</a></i>,
+              Das</a> & 
           <a href="https://www.linkedin.com/in/abhishekkdev/" target="_blank">Abhishek
-              Kumar</a></i><br>
-          <i>Special thanks to <a href="https://www.linkedin.com/in/renakuai/" target="_blank">Rena Kuai</a> for letting
-            us use her
-            <a href="https://codepen.io/rkuai/pen/ExLbPWG/" target="_blank">Twinkling Stars</a> background.</i>
+            Kumar</a></i><br>
+        </div>
+        <i>Special thanks to <a href="https://www.linkedin.com/in/renakuai/" target="_blank">Rena Kuai</a> for letting
+          us use her
+          <a href="https://codepen.io/rkuai/pen/ExLbPWG/" target="_blank">Twinkling Stars</a> background.</i>
         </p>
       </div>
     </div>
@@ -629,9 +648,10 @@
       const svgWidth = svgEl.clientWidth;
       const svgHeightNew = svgEl.clientHeight;
 
-      const scaleX = svgWidth / (graphWidth + 100); // Add padding
-      const scaleY = svgHeightNew / (graphHeight + 100);
-      const scale = Math.min(scaleX, scaleY, 1); // Never enlarge past 100%
+      paddingFactor = 1.8;
+      const scaleX = svgWidth / (graphWidth * paddingFactor); // Add padding
+      const scaleY = svgHeightNew / (graphHeight * paddingFactor);
+      const scale = Math.min(scaleX, scaleY); // Never enlarge past 100%
 
       // Compute offset so graph appears centered
       const offsetX = (svgWidth - graphWidth * scale) / 2 - minX * scale;
@@ -714,7 +734,7 @@
           .attr("class", "svg-icon")
           .attr("style", () => {
             const delay = Math.random() * 0.0001;
-            return `animation: pulseGlow 1s ease-in-out ${delay}s infinite`;
+            return `animation: pulseGlow 3s ease-in-out ${delay}s infinite`;
           })
           .html(d.svg);
       });
