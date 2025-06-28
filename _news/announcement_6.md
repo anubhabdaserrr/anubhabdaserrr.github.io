@@ -5,5 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Launched an interactive network visualization of dream themes extracted from 44,000 Reddit posts.  
-[Link](/assets/visualizations/dreamnet.html)
+Launched an interactive network visualization of dream themes extracted from 44,000 Reddit posts. [(Link)](/assets/visualizations/dreamnet.html)
