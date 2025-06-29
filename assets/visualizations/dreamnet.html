@@ -765,14 +765,14 @@ if (isPortraitMobile) {
     let labels;
     renderGraph();
 // -----
-    function setRealViewportHeight() {
-  const vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-}
-setRealViewportHeight();
+//     function setRealViewportHeight() {
+//   const vh = window.innerHeight * 0.01;
+//   document.documentElement.style.setProperty('--vh', `${vh}px`);
+// }
+// setRealViewportHeight();
 
     window.addEventListener("resize", () => renderGraph());
-    window.addEventListener('resize', setRealViewportHeight);
+    // window.addEventListener('resize', setRealViewportHeight);
 // -----
     function showCard(d) {
       const card = document.getElementById("card");
