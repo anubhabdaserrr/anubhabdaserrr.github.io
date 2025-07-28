@@ -33,27 +33,27 @@
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💭</text></svg>">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-   <script src="./dream-network-d3.js"></script>
+  <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
+  <script src="./dream-network-d3.js"></script>
   <style>
+    #loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: linear-gradient(#1F2023, #424472);
+      /* match site theme */
+      color: white;
+      z-index: 99999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Quicksand', Arial, sans-serif;
+      flex-direction: column;
 
-#loading-screen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: linear-gradient(#1F2023, #424472); /* match site theme */
-  color: white;
-  z-index: 99999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Quicksand', Arial, sans-serif;
-  flex-direction: column;
-  
-  
-}
+
+    }
 
     .svg-icon path {
       fill: #4f0809;
@@ -88,16 +88,17 @@
     }
 
     body {
-        /* height: calc(var(--vh, 1vh) * 100);
-  /* min-height: 100vh; */
-  /* overflow-x: hidden; */
-  /* overflow-y: auto; */
+      /* height: calc(var(--vh, 1vh) * 100); */
+      /* min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto; */
 
-      height: 100vh;
-      overflow: hidden;
+      /* height: 100vh; */
+      /* overflow: hidden;    */
       /* width: 100vw; */
-  
-  
+
+
       /* overflow-x: hidden;
       overflow-y: auto; */
 
@@ -116,9 +117,9 @@
       top: 0;
       left: 0;
       width: 100vw;
-      height: 100vh;
       overflow: hidden;
       z-index: 0;
+      height: calc(var(--vh, 1vh) * 100);
       /* height: 100%;
       width: 100%;
       position: fixed; relative */
@@ -205,6 +206,9 @@
       margin: 0 auto;
       /* position: relative; */
       z-index: 1;
+
+      pointer-events: all;
+      touch-action: manipulation;
     }
 
     .node-border {
@@ -364,8 +368,10 @@
       .bottom-left-overlay,
       .bottom-right-overlay {
         flex: 1 1 100%;
-text-align: left; /* Add this line */
-    align-items: flex-start; /* Useful if any flex child elements */
+        text-align: left;
+        /* Add this line */
+        align-items: flex-start;
+        /* Useful if any flex child elements */
 
 
 
@@ -391,12 +397,28 @@ text-align: left; /* Add this line */
     .toggle-button:hover {
       background: rgba(255, 255, 255, 0.3);
     }
+
+
+    @media (max-height: 600px) {
+      .top-left-overlay h1 {
+        font-size: clamp(0.35rem, 0.8vh, 0.65rem);
+      }
+
+      .top-left-overlay p {
+        font-size: clamp(0.3rem, 0.7vh, 0.6rem);
+      }
+
+      .bottom-left-overlay,
+      .bottom-right-overlay {
+        font-size: clamp(0.28rem, 0.65vh, 0.55rem);
+      }
+    }
   </style>
-  <script src="https://cdn.tailwindcss.com/3.4.1"></script>
-   <!-- <script src="./tailwindcss.3.4.1.css"></script> -->
+  <!-- <script src="https://cdn.tailwindcss.com/3.4.1"></script> -->
+  <script src="./tailwindcss.3.4.1.css"></script>
 </head>
 
-<body style="margin: 0; background: black;">
+<body style="background: black;">
   <!-- <div id="mobile-warning" style="
   background: black;
   color: white;
@@ -416,17 +438,21 @@ text-align: left; /* Add this line */
   </div>
   <img src="dreams_net.jpg" alt="Visualization Preview" style="max-width: 90%; height: auto; border: 1px solid #333;">
 </div> -->
-<div id="loading-screen">
-  <div style="text-align: center;">
-    <div id="loading-text"><h1 style="font-size: 1.5rem;">Loading visualization...</h1></div><br/> 
-    <h1>Topics of our dreams</h1>
-    <br/> 
-    <p>Mapping shared dream themes from 44,000 Reddit posts</p><br/>
-    <div id="progress-bar" style="width: 80%; height: 10px; background: #333; border-radius: 5px; overflow: hidden; margin: auto;">
-      <div id="progress-fill" style="height: 100%; width: 0%; background: #00ffee; transition: width 0.3s ease;"></div>
+  <div id="loading-screen">
+    <div style="text-align: center;">
+      <div id="loading-text">
+        <h1 style="font-size: 1.5rem;">Loading visualization...</h1>
+      </div><br />
+      <h1>Topics of our dreams</h1>
+      <br />
+      <p>Mapping shared dream themes from 44,000 Reddit posts</p><br />
+      <div id="progress-bar"
+        style="width: 80%; height: 10px; background: #333; border-radius: 5px; overflow: hidden; margin: auto;">
+        <div id="progress-fill" style="height: 100%; width: 0%; background: #00ffee; transition: width 0.3s ease;">
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
   <div class="light" id="lightEle">
     <svg width="100vw" height="100vh" style="display: block; background: black;"></svg>
@@ -455,7 +481,7 @@ text-align: left; /* Add this line */
         <a href="https://www.reddit.com/r/Dreams/" target="_blank">
           r/Dreams
         </a> community, posted b/w Mar. 2016 to Sept. 2022, helped us uncover this underlying taxonomy of dream themes.
-        Hover over the nodes to explore individual themes. Dream excerpts have been paraphrased to preserve user
+        Hover or tap on the nodes to explore individual themes. Dream excerpts have been paraphrased to preserve user
         privacy.
       </p>
     </div>
@@ -487,9 +513,9 @@ text-align: left; /* Add this line */
         <p>
         <div class="bottom-right-overlay-text">
           <i>Visualization by <a href="https://www.linkedin.com/in/anubhabdaserrr/" target="_blank">Anubhab
-              Das</a> & 
-          <a href="https://www.linkedin.com/in/abhishekkdev/" target="_blank">Abhishek
-            Kumar</a></i><br>
+              Das</a> &
+            <a href="https://www.linkedin.com/in/abhishekkdev/" target="_blank">Abhishek
+              Kumar</a></i><br>
         </div>
         <i>Special thanks to <a href="https://www.linkedin.com/in/renakuai/" target="_blank">Rena Kuai</a> for letting
           us use her
@@ -524,28 +550,38 @@ text-align: left; /* Add this line */
 
 
   <script>
-        let percent = 0;
-let done = false;
-const fill = document.getElementById('progress-fill');
-const loadingText = document.getElementById('loading-text');
-const loader = document.getElementById('loading-screen');
+    function setRealViewportHeight() {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    }
 
-const interval = setInterval(() => {
-  if (percent < 80 && !done) {
-    percent += 5;
-    fill.style.width = `${percent}%`;
-    loadingText.textContent = `Loading visualization... ${percent}%`;
-  } else if (done) {
-    percent = 100;
-    fill.style.width = `100%`;
-    loadingText.innerHTML = '<h1 style="font-size: 1.5rem;">Loading complete!</h1>';
-    clearInterval(interval);
-    setTimeout(() => {
-      loader.style.display = 'none';
-      document.getElementById('lightEle').style.display = 'block';
-    }, 300);
-  }
-}, 1000);
+    setRealViewportHeight();
+    window.addEventListener('resize', setRealViewportHeight);
+
+
+
+    let percent = 0;
+    let done = false;
+    const fill = document.getElementById('progress-fill');
+    const loadingText = document.getElementById('loading-text');
+    const loader = document.getElementById('loading-screen');
+
+    const interval = setInterval(() => {
+      if (percent < 80 && !done) {
+        percent += 5;
+        fill.style.width = `${percent}%`;
+        loadingText.textContent = `Loading visualization... ${percent}%`;
+      } else if (done) {
+        percent = 100;
+        fill.style.width = `100%`;
+        loadingText.innerHTML = '<h1 style="font-size: 1.5rem;">Loading complete!</h1>';
+        clearInterval(interval);
+        setTimeout(() => {
+          loader.style.display = 'none';
+          document.getElementById('lightEle').style.display = 'block';
+        }, 300);
+      }
+    }, 1000);
 
 
 
@@ -642,22 +678,30 @@ const interval = setInterval(() => {
       const svgWidth = svgEl.clientWidth;
       const svgHeightNew = svgEl.clientHeight;
 
-      paddingFactor = 1.75;
-
+      let paddingFactor = 1.75;
+      let flag1 = false;
 
       // Reduce padding when in portrait mode on mobile/tablets (e.g., width < height and width < 900px)
-const isPortraitMobile = window.innerWidth < window.innerHeight; // window.innerWidth < 900 && window.innerWidth < window.innerHeight;
-if (isPortraitMobile) {
-  paddingFactor = 1.25; // Reduce padding to make graph wider
-}
+      const isPortraitMobile = window.innerWidth < window.innerHeight; // window.innerWidth < 900 && window.innerWidth < window.innerHeight;
+      if (isPortraitMobile) {
+        paddingFactor = 1.25; // Reduce padding to make graph wider
+      } else {
+        // Landscape mode
+        if (window.innerHeight < 500) {
+          paddingFactor = 1.9; // Even less padding for very short landscape screens
+          flag1 = true;
+        }
+      }
       const scaleX = svgWidth / (graphWidth * paddingFactor); // Add padding
       const scaleY = svgHeightNew / (graphHeight * paddingFactor);
       const scale = Math.min(scaleX, scaleY); // Never enlarge past 100%
 
       // Compute offset so graph appears centered
       const offsetX = (svgWidth - graphWidth * scale) / 2 - minX * scale;
-      const offsetY = (svgHeightNew - graphHeight * scale) / 2 - minY * scale;
-
+      let offsetY = (svgHeightNew - graphHeight * scale) / 2 - minY * scale;
+      if (flag1) {
+        offsetY = offsetY - 30;
+      }
 
 
 
@@ -682,14 +726,26 @@ if (isPortraitMobile) {
           const targetNode = localNodes.find(n => n.id === d.target);
           return averageColor(sourceNode.color, targetNode.color);
         });
-
+      let selectedNodeId = null;
+      // let lastClickTime = 0;
+      // let lastHoverTime = 0;
+      // const RACE_THRESHOLD = 100; // milliseconds
+      const nodeElements = new Set();
       // Draw nodes
       const nodeGroup = scaleGroup.selectAll(".node")
         .data(localNodes)
         .enter()
         .append("g")
+        .attr("class", "node")  // <-- Add this
         .attr("transform", d => `translate(${d.x},${d.y})`)
+        .each(function () {
+          nodeElements.add(this); // track each actual <g> DOM element
+        })
         .on("mouseover", function (event, d) {
+          //           const now = Date.now();
+          // if (now - lastClickTime < RACE_THRESHOLD) {return;}
+          // lastHoverTime = now;
+          selectedNodeId = d.id;
           d3.select(this).select("circle").attr("fill", d3.color(d.color).darker(1.5));
           d3.select(this).raise();
           showCard(d);
@@ -701,10 +757,12 @@ if (isPortraitMobile) {
             .style("font-weight", "bold");
         })
         .on("mousemove", function (event, d) {
+          selectedNodeId = d.id;
           updateCardPosition(event);
           showCard(d);
         })
         .on("mouseout", function (event, d) {
+          selectedNodeId = null;
           hideCard();
           d3.select(this).select("circle").attr("fill", d.color);
           labels.filter(l => l.id === d.id)
@@ -712,7 +770,79 @@ if (isPortraitMobile) {
             .duration(200)
             .style("opacity", labelOpacity)
             .style("font-weight", "normal");
-        });
+        })
+
+      // .on("click", function (event, d) {
+      //   const now = Date.now();
+      // if (now - lastHoverTime < RACE_THRESHOLD) {return;}
+      // lastClickTime = now;
+      // event.stopPropagation();
+
+      // // If same node is clicked again → hide card
+      // if (selectedNodeId === d.id) {
+      //   hideCard();
+      //         d3.select(this).select("circle").attr("fill", d.color);
+      //         labels.filter(l => l.id === d.id)
+      //           .transition()
+      //           .duration(200)
+      //           .style("opacity", labelOpacity)
+      //           .style("font-weight", "normal");
+      //   selectedNodeId = null;
+      //   return;
+      // }
+
+      // if (selectedNodeId != null) {
+      //     hideCard();
+      //   const lastNode = d3.selectAll(".node").filter(n => n.id === selectedNodeId);
+      //   lastNode.select("circle").attr("fill", n => n.color);
+
+      //   labels.filter(l => l.id === selectedNodeId)
+      //     .transition()
+      //     .duration(200)
+      //     .style("opacity", labelOpacity)
+      //     .style("font-weight", "normal");
+      // }
+
+
+
+      //     selectedNodeId = d.id; 
+      //         d3.select(this).select("circle").attr("fill", d3.color(d.color).darker(1.5));
+      //         d3.select(this).raise();
+      //         showCard(d);
+      //         updateCardPosition(event);
+      //         labels.filter(l => l.id === d.id)
+      //           .transition()
+      //           .duration(200)
+      //           .style("opacity", 1)
+      //           .style("font-weight", "bold");
+
+
+
+
+
+
+
+      // selectedNodeId = d.id;
+
+      // d3.selectAll("circle").attr("fill", n => n.color); // Reset others
+      // d3.select(this).select("circle").attr("fill", d3.color(d.color).darker(1.5));
+
+      // showCard(d);
+      // updateCardPosition(event);
+      // });
+      // Global click to hide card
+      // document.body.addEventListener("click", function () {
+      //   // Check if the click target was inside a node
+      //   const clickedInsideNode = event.target.closest(".node");
+
+      //   if (!clickedInsideNode) {
+      //     hideCard();
+      //     selectedNodeId = null;
+      //   }
+      // });
+
+
+
 
       nodeGroup.append("circle")
         .attr("class", "node-border")
@@ -761,20 +891,63 @@ if (isPortraitMobile) {
               .text(line);
           });
         });
+
+      document.addEventListener("touchend", function (event) {
+        let insideNode = false;
+        // console.log(nodeElements)
+        for (const nodeEl of nodeElements) {
+          if (nodeEl.contains(event.target)) {
+            insideNode = true;
+            break;
+          }
+        }
+        // console.log(insideNode)
+        if (!insideNode) {
+          hideCard();
+          // console.log('lol')
+          // Reset the node circle fill
+
+
+          const matchedNode = d3.selectAll(".node").filter(d => d.id === selectedNodeId);
+
+          console.log("Matched node count:", matchedNode.size()); // Should be 1
+
+          matchedNode.select("circle").attr("fill", d => d.color);
+
+
+          // Reset the label style
+          labels.filter(l => l.id === selectedNodeId)
+            .transition()
+            .duration(200)
+            .style("opacity", labelOpacity)
+            .style("font-weight", "normal");
+
+
+
+          selectedNodeId = null;
+        }
+      });
+      hideCard();
+      selectedNodeId = null;
+      // console.log(nodeElements)
+
+
+
+
     }
 
     let labels;
     renderGraph();
-// -----
-//     function setRealViewportHeight() {
-//   const vh = window.innerHeight * 0.01;
-//   document.documentElement.style.setProperty('--vh', `${vh}px`);
-// }
-// setRealViewportHeight();
+    // -----
+    //     function setRealViewportHeight() {
+    //   const vh = window.innerHeight * 0.01;
+    //   document.documentElement.style.setProperty('--vh', `${vh}px`);
+    // }
+    // setRealViewportHeight();
 
     window.addEventListener("resize", () => renderGraph());
     // window.addEventListener('resize', setRealViewportHeight);
-// -----
+    // -----
     function showCard(d) {
       const card = document.getElementById("card");
       const img = document.getElementById("card-img");
@@ -850,16 +1023,21 @@ if (isPortraitMobile) {
 
 
     done = true;
-if (percent >= 80) {
-  fill.style.width = `100%`;
-  loadingText.textContent = `Loading complete`;
-  clearInterval(interval);
-  setTimeout(() => {
-    loader.style.display = 'none';
-    document.getElementById('lightEle').style.display = 'block';
-  }, 300);
-}
+    if (percent >= 80) {
+      fill.style.width = `100%`;
+      loadingText.textContent = `Loading complete`;
+      clearInterval(interval);
+      setTimeout(() => {
+        loader.style.display = 'none';
+        document.getElementById('lightEle').style.display = 'block';
+      }, 300);
+    }
+
+    // document.getElementsByClassName('scale-group')[0].innerHTML='abrewf'
+    // const el = document.getElementsByClassName('scale-group')[0];
+    // el.style.cssText += 'transform: scale(0.3); transform-origin: center center;';
   </script>
+
 
 </body>
 
