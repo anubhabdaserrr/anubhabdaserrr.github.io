@@ -31,6 +31,6 @@ Feel free to reach out to me via email or LinkedIn. :) Find my resume here: [Lin
 
 For a quick summary of the things that I've worked on, please visit the [Projects](/projects), & [Experience](/experience) section. I also share my thoughts on data, dev, and a couple of reflections every now and then. Here's what my co-workers & my collaborators/ supervisors have to say about me: [Recommendations](/recommendations).
 
-Feel free to shoot me an email at `anubhabdas [dot] dev [at] gmail [dot] com` for general enquiries, or for a quick chat. You can also find me on my [socials](/socials). I'm scattered across the interwebs, mostly under the handle `@anubhabdaserrr`.
+Feel free to shoot me an email at `anubhabdas[dot]dev[at]gmail[dot]com` for general enquiries, or for a quick chat. You can also find me on my [socials](/socials). I'm scattered across the interwebs, mostly under the handle `@anubhabdaserrr`.
 
 I speak English, Bengali & Hindi.

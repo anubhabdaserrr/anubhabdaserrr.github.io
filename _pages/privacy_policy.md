@@ -3,7 +3,7 @@ layout: page
 permalink: /privacy-policy/
 title: Privacy Policy
 description: An overview of my academic achievements and educational history listed in reverse chronological order.
-nav: true
+nav: false
 nav_order: 2
 ---
 
@@ -19,9 +19,7 @@ Specific assets may have their own licensing or usage terms, which take preceden
 
 ## Contact
 
-If you have any questions about this website or its content, you can contact me at:
-
-**anubhabdas [dot] dev [at] gmail [dot] com**
+If you have any questions about this website or its content, you can contact me at: `anubhabdas[dot]dev[at]gmail[dot]com`
 
 
 2020-2026 Anubhab Das. All rights reserved.
