@@ -17,7 +17,7 @@ icon: ad_favicon.ico # ⚛️  # the emoji used as the favicon (alternatively, p
 url: https://anubhabdas.com # https://anubhabdaserrr.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: /impressum/ # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -119,7 +119,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Anubhab Das Blog # blog_name will be displayed in your blog page
 blog_nav_title: Blog #GIVE NAV TITLE TO RE-ENABLE BLOG #Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: A collection of my writings, with accompanying illustraions & data visualizations on AI, dev, NLP, and some personal reflections.
+blog_description: A collection of my writings, with accompanying illustrations & data visualizations on AI, dev, NLP, and some personal reflections.
 permalink: /blog/:year/:title/
 
 # Pagination

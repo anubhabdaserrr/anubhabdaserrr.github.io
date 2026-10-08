@@ -22,4 +22,9 @@ children:
       permalink: https://bit.ly/adasdevresume
     - title: Full Resume
       permalink: https://bit.ly/adasdevresume
+    - title: divider
+    - title: Privacy Policy
+      permalink: /privacy-policy
+    - title: Impressum
+      permalink: /impressum
 ---
