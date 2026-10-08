@@ -10,7 +10,7 @@ nav_order: 2
 #### Bachelor Of Technology (B.Tech.)
 ##### Heritage Institute Of Technology, Kolkata
 <!-- (Remote) -->
-<img src="../assets/img/hitk.png" alt="HITK Logo" style="height: 20px; width: 20px; vertical-align: middle; border-radius: 10%;" /> July 2018 - July 2022
+<img src="../assets/img/hitk.png" alt="HITK Logo" style="height: 20px; width: 20px; vertical-align: middle; border-radius: 10%;" /> Aug 2018 - Aug 2022
 
 Concentration: **Computer Science & Engineering**\
 Degree GPA: **9.05/10**

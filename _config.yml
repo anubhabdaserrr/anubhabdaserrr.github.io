@@ -101,14 +101,14 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  The best way to reach out to me is via Email & LinkedIn.<br/>© 2020-2026 Anubhab Das - @anubhabdaserrr. All rights reserved.
+  The best way to reach out to me is via Email & LinkedIn.<br/><br/>© 2020-2026 Anubhab Das, aka @anubhabdaserrr. All rights reserved.
 # You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: G-DDGV13PQ3W # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 google_site_verification: google-site-verification=QOV5JTD3aFtJUB6h9I1CBqXwQ4dn3ve5xVCoGtZUO6g # your google-site-verification ID (Google Search Console)
@@ -118,9 +118,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blogs by Anubhab Das # blog_name will be displayed in your blog page
-blog_nav_title: Blogs #GIVE NAV TITLE TO RE-ENABLE BLOG #Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Engineer & Data Viz Dude | Learning, un-learning & breaking things to learn better, every now and then. Transforming raw texts to structured insights.
+blog_name: Anubhab Das Blog # blog_name will be displayed in your blog page
+blog_nav_title: Blog #GIVE NAV TITLE TO RE-ENABLE BLOG #Blog # your blog must have a title for it to be displayed in the nav bar
+blog_description: Writing & coding to think, and thinking to write & code. Engineer with a knack for mish-mashing unreadable walls of text with pretty graphs and somehow weaving narratives outta them.
 permalink: /blog/:year/:title/
 
 # Pagination
