@@ -2,7 +2,8 @@
 layout: about
 title: About
 permalink: /
-subtitle: Software Engineer @ Textify AI, India | Ex-Visiting Researcher @ Nokia Bell Labs, Cambridge
+subtitle: Backend & GenAI Engineer | RAG, LLMs, NLP & AI Systems
+subtitle: @anubhabdaserrr
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
