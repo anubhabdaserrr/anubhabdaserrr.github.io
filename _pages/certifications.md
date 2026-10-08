@@ -6,10 +6,10 @@ description: Courses and credentials I've completed are listed here in reverse-c
 nav: false
 ---
 
-**My Learning Profiles**: <a href="[https://www.credly.com/users/anubhabdaserrr](https://www.credly.com/users/anubhabdaserrr)" target="_blank" rel="noopener noreferrer">`Credly`</a> ·
-<a href="[https://credentials.databricks.com/profile/anubhabdas85057](https://credentials.databricks.com/profile/anubhabdas85057)" target="_blank" rel="noopener noreferrer">`Accredible`</a> ·
-<a href="[https://www.udemy.com/user/anubhab-das-13/](https://www.udemy.com/user/anubhab-das-13/)" target="_blank" rel="noopener noreferrer">`Udemy`</a> ·
-<a href="[https://www.deeplearning.ai/u/01JFSCRMCNXBMREWSX3YDJQ55F](https://www.deeplearning.ai/u/01JFSCRMCNXBMREWSX3YDJQ55F)" target="_blank" rel="noopener noreferrer">`DeepLearning.AI`</a>
+**My Learning Profiles**: <a href="https://www.credly.com/users/anubhabdaserrr" target="_blank" rel="noopener noreferrer">`Credly`</a> ·
+<a href="https://credentials.databricks.com/profile/anubhabdas85057" target="_blank" rel="noopener noreferrer">`Accredible`</a> ·
+<a href="https://www.udemy.com/user/anubhab-das-13/" target="_blank" rel="noopener noreferrer">`Udemy`</a> ·
+<a href="https://www.deeplearning.ai/u/01JFSCRMCNXBMREWSX3YDJQ55F" target="_blank" rel="noopener noreferrer">`DeepLearning.AI`</a>
 
 
 ---
