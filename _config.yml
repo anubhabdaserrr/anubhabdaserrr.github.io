@@ -7,10 +7,9 @@ first_name: Anubhab
 middle_name: 
 last_name: Das
 email: # Add email later
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: Anubhab Das — Software & GenAI Engineer building production-grade RAG systems, backend applications, and NLP research with Python, FastAPI, and LangChain. #> # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: 
-keywords: #jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: Anubhab Das, anubhabdaserrr, Backend Development, Backend, GenAI, RAG, NLP, Python #jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ad_favicon.ico # ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -45,7 +44,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -56,9 +55,9 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: dream-net-dark.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -120,7 +119,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Anubhab Das Blog # blog_name will be displayed in your blog page
 blog_nav_title: Blog #GIVE NAV TITLE TO RE-ENABLE BLOG #Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Writing & coding to think, and thinking to write & code. Engineer with a knack for mish-mashing unreadable walls of text with pretty graphs and somehow weaving narratives outta them.
+blog_description: A collection of my writings, with accompanying illustraions & data visualizations on AI, dev, NLP, and some personal reflections.
 permalink: /blog/:year/:title/
 
 # Pagination
