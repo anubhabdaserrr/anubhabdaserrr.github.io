@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: Backend & GenAI Engineer | RAG, LLMs, NLP & AI Systems
-subtitle: @anubhabdaserrr
+# subtitle: @anubhabdaserrr
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
