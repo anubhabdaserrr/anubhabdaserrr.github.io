@@ -14,6 +14,7 @@ Organize your courses by years, topics, or universities, however you like! -->
 ## <img  src="../assets/img/textify.jpg"  alt="Textify Logo"  style="height: 1em; vertical-align: middle; border-radius: 10%; margin-right: 10px;"  />Textify Analytics
 
 *Formerly Textify AI, Registered as CRCJ Technologies Private Limited*
+
 *(Remote) Indore, Madhya Pradesh, India · Dec 2022 - Jul 2026*
 
 
