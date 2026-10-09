@@ -2,7 +2,7 @@
 layout: page
 permalink: /experience/
 title: Experience
-description: Indsutrial & Academic Experience in Software Development, Data Science & ML (mostly) listed in reverse chronological order.
+description: A reverse-chronological overview of my industry experience across software development, backend engineering, AI, and data-driven projects.
 nav: true
 nav_order: 1
 ---
@@ -11,7 +11,10 @@ nav_order: 1
 
 Organize your courses by years, topics, or universities, however you like! -->
 
-## <img  src="../assets/img/textify.jpg"  alt="Textify Logo"  style="height: 1em; vertical-align: middle; border-radius: 10%; margin-right: 10px;"  />Textify AI, India
+## <img  src="../assets/img/textify.jpg"  alt="Textify Logo"  style="height: 1em; vertical-align: middle; border-radius: 10%; margin-right: 10px;"  />Textify Analytics - Formerly Textify AI (CRCJ Technologies Private Limited)
+
+*Indore, Madhya Pradesh, India (Remote) · Dec 2022 - Jul 2026*
+
 
 ### Software Development Engineer 2 (SDE-2)
 Apr 2026 - Jul 2026
@@ -35,7 +38,7 @@ Tech Stack: *Python, FastAPI, JavaScript, Node.js, MongoDB, Redis, Supabase, Azu
 
 3. Engineered a suite of XGBoost models to predict news-success indicators, with MLflow-driven tracking, Docker-based deployment, and capabilities for real-time single-point inference and asynchronous batch inference.
 
-4. Configured auto-deployments for multiple Python–FastAPI backend APIs to Azure VMs using GitHub Actions CI/CD, with basic Nginx reverse-proxy configuration to serve production websites.
+4. Configured auto-deployments for multiple Python-FastAPI backend APIs to Azure VMs using GitHub Actions CI/CD, with basic Nginx reverse-proxy configuration to serve production websites.
 
 5. Successfully migrated test and production deployments for multiple backend platforms from Azure to GCP, across our core product as well as separate client projects
 
