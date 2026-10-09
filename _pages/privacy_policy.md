@@ -21,4 +21,4 @@ Specific assets may have their own licensing or usage terms, which take preceden
 If you have any questions about this website or its content, you can contact me at: `anubhabdas[dot]dev[at]gmail[dot]com`
 
 
-2020-2026 Anubhab Das. All rights reserved.
+© 2020-2026 Anubhab Das. All rights reserved.

@@ -20,4 +20,4 @@ Online presence: You can find me online as `@anubhabdaserrr`
 If you have any questions regarding this website or its content, feel free to get in touch by email.
 
 
-2020-2026 Anubhab Das. All rights reserved.
+© 2020-2026 Anubhab Das. All rights reserved.
