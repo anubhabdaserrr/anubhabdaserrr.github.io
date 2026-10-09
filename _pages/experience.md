@@ -82,7 +82,7 @@ Tech Stack: *Python, Flask, MongoDB, Redis, Hugging Face, scikit-learn*
 
 3. Implemented basic CI/ CD pipelines using GitHub Actions for deploying backend APIs.
 
-<img  src="../assets/img/dev_textify_biz_login.png"  alt="dev_textify_biz_login"  style="max-width: 100%; height: auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); border-radius: 4px; margin-bottom: 20px;">
+<img  src="../assets/img/dev_textify_biz_login.png"  alt="dev_textify_biz_login"  style="max-width: 100%; height: auto;">
 
 **Client project & demos**
 
@@ -92,6 +92,6 @@ Tech Stack: *Python, Flask, MongoDB, Redis, Hugging Face, scikit-learn*
 
 3. Deployed machine learning models as production-ready APIs for client applications.
 
-<img  src="../assets/img/complaint_classif_ss.jpg"  alt="complaint_classif_ss"  style="max-width: 100%; height: auto;">
+<img  src="../assets/img/complaint_classif_ss.jpg"  alt="complaint_classif_ss"  style="max-width: 100%; height: auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); border-radius: 4px; margin-bottom: 20px;">
 
 ----
