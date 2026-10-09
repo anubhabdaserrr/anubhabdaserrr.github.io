@@ -18,10 +18,13 @@ MongoDB · Redis · Supabase · Firebase (Cloud Firestore)
 ## AI / GenAI / Agentic AI
 LLMs · RAG · AI Agents · Prompt Engineering · Embeddings · Vector Search · RAG & LLM Evals · Ollama Qwen3.5:2b
 
+## Voice AI & Telephony
+Twilio · ElevenLabs API · OpenAI Speech-to-Text (STT) & Text-to-Speech (TTS) · OpenAI Realtime API (speech-to-speech)
+
 ## Machine Learning & MLOps
 scikit-learn · PyTorch · Keras · Hugging Face · Transformers · BERTopic · sentence-transformers (SBERT) · MLflow
 
-## Data Analysis, Transformation
+## Data Analytics & Data Transformation
 Numpy · Pandas · SciPy · statsmodels
 
 ## NLP

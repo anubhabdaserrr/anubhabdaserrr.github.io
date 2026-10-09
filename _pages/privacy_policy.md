@@ -4,7 +4,6 @@ permalink: /privacy-policy/
 title: Privacy Policy
 description: Information about how this website handles privacy, personal data, and user information.
 nav: false
-nav_order: 2
 ---
 
 This website respects your privacy.

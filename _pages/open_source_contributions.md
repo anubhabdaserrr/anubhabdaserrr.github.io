@@ -4,7 +4,6 @@ permalink: /open-source-contributions/
 title: Open-source Contributions
 description: A collection of my open-source contributions, including minor fixes and improvements to existing projects. While I'm yet to make substantial contributions, I've started taking my first steps toward contributing to open-source projects.
 nav: false
-nav_order: 2
 ---
 
 ### FASTopic · June 2025
