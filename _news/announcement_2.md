@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our research on mining dreams from Reddit was presented at The 9th International Conference on Computational Social Science, Copenhagen. [(Link)](https://www.ic2s2.org/program#session_3a) [(Tweet)](https://x.com/lajello/status/1681610789797482496?s=20).
+Our research on mining dreams from Reddit was presented at The 9th International Conference on Computational Social Science, Copenhagen. [(Link)](https://ic2s2-2023.org/program#session_3a) [(Tweet)](https://x.com/lajello/status/1681610789797482496?s=20).

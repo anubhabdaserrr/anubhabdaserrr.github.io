@@ -8,7 +8,7 @@ nav: false
 
 ### 10th International Conference on Computational Social Science, Philadelphia, USA  (IC2S2-2024)
 #### Understanding the divergence between digital health footprints and official prevalence: A multi-behaviour study across US states 
-**Accepted as a *poster presentation*** <a href="https://ic2s2-2024.org/schedule#:~:text=Poster%20Presentations" target="_blank">(Link)</a>
+**Accepted as a *poster presentation*** <a href="https://ic2s2-2024.org/schedule#:~:text=Poster%20Presentations" target="_blank">(Link)</a> <a href="https://doi.org/10.6084/m9.figshare.28171136.v1" target="_blank">(Poster)</a>
 
 **Presented by:** Andrés Gvirtz
 
@@ -28,7 +28,7 @@ Drawing from our results, certain guidelines emerge for interpreting online heal
 
 ### 9th International Conference on Computational Social Science, Copenhagen, Denmark  (IC2S2-2023)
 #### Topics of Our Dreams 
-*Accepted as an **oral presentation in parallel tracks*** <a href="https://www.ic2s2.org/program#session_3a" target="_blank">(Link)</a>
+*Accepted as an **oral presentation in parallel tracks*** <a href="https://ic2s2-2023.org/program#session_3a" target="_blank">(Link)</a> <a href="https://x.com/lajello/status/1681610789797482496?s=20" target="_blank">(Tweet)</a>
 
 **Presented by:** Sanja Šćepanović
 
