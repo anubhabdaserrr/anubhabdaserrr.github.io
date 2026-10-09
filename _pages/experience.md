@@ -11,14 +11,14 @@ nav_order: 1
 
 Organize your courses by years, topics, or universities, however you like! -->
 
-## <img  src="../assets/img/textify.jpg"  alt="Textify Logo"  style="height: 20px; width: 20px; vertical-align: middle; border-radius: 10%;"  />Textify AI, India
+## <img  src="../assets/img/textify.jpg"  alt="Textify Logo"  style="height: 1em; vertical-align: middle; border-radius: 10%; margin-right: 10px;"  />Textify AI, India
 
 ### Software Development Engineer 2 (SDE-2)
 Apr 2026 - Jul 2026
 
 Tech Stack: *Python, FastAPI, MongoDB, Redis, Firebase, Amazon SES, S3, EC2, Voice AI & Telephony*
 
-#### Traveltalk24: AI-assisted itinerary generation for your next trip
+**Traveltalk24: AI-assisted itinerary generation for your next trip**
 
 - Re-factored back-end infra to automatically deploy newly submitted apps using dynamically created objects
 
@@ -27,7 +27,7 @@ Apr 2023 - Mar 2026
 
 Tech Stack: *Python, FastAPI, JavaScript, Node.js, MongoDB, Redis, Supabase, Azure VMs, Document Intelligence API*
 
-#### Analytx: RAG-based charts search platform
+**Analytx: RAG-based charts search platform**
 
 1. Developed a RAG-based charts search engine using Azure OpenAI API, MongoDB Atlas vector search, LangChain, to retrieve relevant charts, matching user query, from a database of 2 million+ charts.
 
@@ -39,7 +39,7 @@ Tech Stack: *Python, FastAPI, JavaScript, Node.js, MongoDB, Redis, Supabase, Azu
 
 5. Successfully migrated test and production deployments for multiple backend platforms from Azure to GCP, across our core product as well as separate client projects
 
-#### Textify AI App & Builder Platform: Web platform for building no-code AI mini-apps
+**Textify AI App & Builder Platform: Web platform for building no-code AI mini-apps**
 
 1. Optimized app platform homepage load times by implementing Redis-based caching for personalized and non-personalized app recommendations serving 20,000+ users across categories including Top, New, Discover Peer Favourites, You Might Also Like, and Textify Curated.
 
@@ -65,13 +65,21 @@ Dec 2022 - Mar 2023
 
 Tech Stack: *Python, Flask, MongoDB, Redis, Hugging Face, scikit-learn*
 
-- Built API endpoints to implement app-specific request queueing using SSE (Server-Sent Events) & Redis
+**Textify AI App Platform (Initial Phase)**
 
-- Deployed 24 GB GPT-J model with 6 billion parameters on an AWS EC2 instance for classifying complaints
+1. Built API endpoints to implement app-specific request queueing using SSE (Server-Sent Events) & Redis
 
-- Implemented basic CI/ CD pipelines using GitHub Actions for deploying backend APIs.
+2. Deployed 24 GB GPT-J model with 6 billion parameters on an AWS EC2 instance for classifying complaints
 
-- Built multiple demos for client projects spanning Text summarisation, Translation & Question answering.
+3. Implemented basic CI/ CD pipelines using GitHub Actions for deploying backend APIs.
+
+**Client project & demos**
+
+1. Built multiple demos for client projects spanning Text summarisation, Translation & Question answering.
+
+2. Prepared technical documentation covering model workflows, APIs, and integration details.
+
+3. Deployed machine learning models as production-ready APIs for client applications.
 
 <img  src="../assets/img/textify_intern_stack.png"  alt="textify_intern_stack"  style="max-width: 100%; height: auto;">
 
