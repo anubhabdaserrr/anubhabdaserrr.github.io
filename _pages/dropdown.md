@@ -7,6 +7,8 @@ dropdown: true
 children:
     - title: Open-source Contributions
       permalink: /open-source-contributions/
+    - title: Research
+      permalink: /research/
     - title: Certifications
       permalink: /certifications/
     - title: Recommendations
