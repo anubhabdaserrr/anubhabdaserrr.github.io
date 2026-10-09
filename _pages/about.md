@@ -17,7 +17,7 @@ profile:
 # <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts !!!! CHANGED !!!!!
+latest_posts: true  # includes a list of the newest posts !!!! CHANGED !!!!!
 selected_papers: true # includes a list of papers marked as "selected={true}" !!!! CHANGED !!!!!
 social: true  # includes social icons at the bottom of the page
 ---
@@ -33,4 +33,4 @@ For a quick summary of the things that I've worked on, please visit the [Project
 
 Feel free to shoot me an email at `anubhabdas[dot]dev[at]gmail[dot]com` for general enquiries, or for a quick chat. You can also find me on my [socials](/socials). I'm scattered across the interwebs, mostly under the handle `@anubhabdaserrr`.
 
-I speak English, Bengali & Hindi.
+Languages I speak: English, Bengali & Hindi.
