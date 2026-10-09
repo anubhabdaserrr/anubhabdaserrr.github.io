@@ -11,9 +11,10 @@ nav_order: 1
 
 Organize your courses by years, topics, or universities, however you like! -->
 
-## <img  src="../assets/img/textify.jpg"  alt="Textify Logo"  style="height: 1em; vertical-align: middle; border-radius: 10%; margin-right: 10px;"  />Textify Analytics - Formerly Textify AI (CRCJ Technologies Private Limited)
+## <img  src="../assets/img/textify.jpg"  alt="Textify Logo"  style="height: 1em; vertical-align: middle; border-radius: 10%; margin-right: 10px;"  />Textify Analytics
 
-*Indore, Madhya Pradesh, India (Remote) · Dec 2022 - Jul 2026*
+*Formerly Textify AI, Registered as CRCJ Technologies Private Limited*
+*(Remote) Indore, Madhya Pradesh, India · Dec 2022 - Jul 2026*
 
 
 ### Software Development Engineer 2 (SDE-2)
