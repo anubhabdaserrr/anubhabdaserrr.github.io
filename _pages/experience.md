@@ -27,7 +27,7 @@ Tech Stack: *Python, FastAPI, MongoDB, Redis, Firebase, Amazon SES, S3, EC2, Voi
 
 - Re-factored back-end infra to automatically deploy newly submitted apps using dynamically created objects
 
-<img  src="../assets/img/tt24_ss.jpeg"  alt="tt24_ss"  style="max-width: 100%; height: auto;">
+<img  src="../assets/img/tt24_ss.jpeg"  alt="tt24_ss"  style="max-width: 100%; height: auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); border-radius: 4px; margin-bottom: 20px;">
 
 ### Software Development Engineer 1 (SDE-1)
 Apr 2023 - Mar 2026
@@ -46,7 +46,7 @@ Tech Stack: *Python, FastAPI, JavaScript, Node.js, MongoDB, Redis, Supabase, Azu
 
 5. Successfully migrated test and production deployments for multiple backend platforms from Azure to GCP, across our core product as well as separate client projects
 
-<img  src="../assets/img/analytx_ss.jpeg"  alt="analytx_ss"  style="max-width: 100%; height: auto;">
+<img  src="../assets/img/analytx_ss.jpeg"  alt="analytx_ss"  style="max-width: 100%; height: auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); border-radius: 4px; margin-bottom: 20px;">
 
 **Textify AI App & Builder Platform: Web platform for building no-code AI mini-apps**
 
@@ -66,7 +66,7 @@ Tech Stack: *Python, FastAPI, JavaScript, Node.js, MongoDB, Redis, Supabase, Azu
 
 8. Designed dashboard app cards, alert screens, custom app UIs, pop-up forms in Figma
 
-<img  src="../assets/img/textify_app_platform_ss.jpeg"  alt="textify_app_platform_ss"  style="max-width: 100%; height: auto;">
+<img  src="../assets/img/textify_app_platform_ss.jpeg"  alt="textify_app_platform_ss"  style="max-width: 100%; height: auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); border-radius: 4px; margin-bottom: 20px;">
 
 ### Software Development Intern
 
@@ -82,6 +82,8 @@ Tech Stack: *Python, Flask, MongoDB, Redis, Hugging Face, scikit-learn*
 
 3. Implemented basic CI/ CD pipelines using GitHub Actions for deploying backend APIs.
 
+<img  src="../assets/img/dev_textify_biz_login.png"  alt="dev_textify_biz_login"  style="max-width: 100%; height: auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); border-radius: 4px; margin-bottom: 20px;">
+
 **Client project & demos**
 
 1. Built multiple demos for client projects spanning Text summarisation, Translation & Question answering.
@@ -90,6 +92,6 @@ Tech Stack: *Python, Flask, MongoDB, Redis, Hugging Face, scikit-learn*
 
 3. Deployed machine learning models as production-ready APIs for client applications.
 
-<img  src="../assets/img/dev_textify_biz_login.png"  alt="dev_textify_biz_login"  style="max-width: 100%; height: auto;">
+<img  src="../assets/img/complaint_classif_ss.jpg"  alt="complaint_classif_ss"  style="max-width: 100%; height: auto;">
 
 ----
