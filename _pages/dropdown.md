@@ -9,11 +9,13 @@ children:
       permalink: /open-source-contributions/
     - title: Research
       permalink: /research/
+    - title: Conferences
+      permalink: /conferences/
     - title: Certifications
       permalink: /certifications/
     - title: Recommendations
       permalink: /recommendations/
-    - title: Hackathons
+    - title: Hackathons & Contests
       permalink: /hackathons-and-contests/
     - title: Skills
       permalink: /skills/
