@@ -59,9 +59,11 @@ Tech Stack: *Python, FastAPI, JavaScript, Node.js, MongoDB, Redis, Supabase, Azu
 
 6. Successfully migrated test and production deployments for multiple backend platforms from Azure to GCP, across our core product as well as separate client projects
 
-7. Built an API access portal (HTML/CSS/JS) with sign-up, API-key-gated endpoints, tiered rate limits and usage analytics, enabling external companies to consume the Charts Search API.
+7. Built a Node.js/Express service using Puppeteer to render frontend-generated charts as PNGs, generate shareable URLs for embedding on external websites, and track chart visits.
 
-8. Developed a real-time AI voice calling agent using FastAPI, Twilio, OpenAI speech-to-text, ElevenLabs text-to-speech, and Redis, integrating a pre-existing knowledge base with an LLM-powered response pipeline, asynchronous audio processing, low-latency filler responses, and conversational turn-taking; persisted audio recordings and responses in Azure Blob Storage.
+8. Built an API access portal (HTML/CSS/JS) with sign-up, API-key-gated endpoints, tiered rate limits and usage analytics, enabling external companies to consume the Charts Search API.
+
+9. Developed a real-time AI voice calling agent using FastAPI, Twilio, OpenAI speech-to-text, ElevenLabs text-to-speech, and Redis, integrating a pre-existing knowledge base with an LLM-powered response pipeline, asynchronous audio processing, low-latency filler responses, and conversational turn-taking; persisted audio recordings and responses in Azure Blob Storage.
 
 <img  src="../assets/img/analytx_ss.jpeg"  alt="analytx_ss"  style="max-width: 100%; height: auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); border-radius: 4px; margin-bottom: 20px;">
 
