@@ -21,6 +21,9 @@ LLMs · RAG · AI Agents · Prompt Engineering · Embeddings · Vector Search ·
 ## Voice AI & Telephony
 Twilio · ElevenLabs API · OpenAI Speech-to-Text (STT) & Text-to-Speech (TTS) · OpenAI Realtime API (speech-to-speech)
 
+## Other API Integrations & Platforms
+WordPress REST API
+
 ## Machine Learning & MLOps
 scikit-learn · PyTorch · Keras · Hugging Face · Transformers · BERTopic · sentence-transformers (SBERT) · MLflow
 
