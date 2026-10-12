@@ -65,6 +65,8 @@ Tech Stack: *Python, FastAPI, JavaScript, Node.js, MongoDB, Redis, Supabase, Azu
 
 9. Developed a real-time AI voice calling agent using FastAPI, Twilio, OpenAI speech-to-text, ElevenLabs text-to-speech, and Redis, integrating a pre-existing knowledge base with an LLM-powered response pipeline, asynchronous audio processing, low-latency filler responses, and conversational turn-taking; persisted audio recordings and responses in Azure Blob Storage.
 
+10. Analyzed chart metadata, categories, subcategories, and user activity (views, shares, and downloads) to identify demand patterns and inform which chart collections to publish next.
+
 <img  src="../assets/img/analytx_ss.jpeg"  alt="analytx_ss"  style="max-width: 100%; height: auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); border-radius: 4px; margin-bottom: 20px;">
 
 **Textify AI App & Builder Platform: Web platform for building no-code AI mini-apps**
@@ -86,6 +88,8 @@ Tech Stack: *Python, FastAPI, JavaScript, Node.js, MongoDB, Redis, Supabase, Azu
 8. Designed dashboard app cards, alert screens, custom app UIs, pop-up forms in Figma
 
 9. Published 500+ blogs across multiple WordPress sites through an automated pipeline, utlizing Wordress REST API & GPT-4o to assign categories, tags and excerpts, with featured image upload, SEO slugs, and batch publishing.
+
+10. Evaluated AI app usage patterns across application types, user interactions, and engagement metrics to identify opportunities for improving app discovery and platform adoption.
 
 <img  src="../assets/img/textify_app_platform_ss.jpeg"  alt="textify_app_platform_ss"  style="max-width: 100%; height: auto; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); border-radius: 4px; margin-bottom: 20px;">
 
