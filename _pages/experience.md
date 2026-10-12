@@ -87,7 +87,7 @@ Tech Stack: *Python, FastAPI, JavaScript, Node.js, MongoDB, Redis, Supabase, Azu
 
 8. Designed dashboard app cards, alert screens, custom app UIs, pop-up forms in Figma
 
-9. Published 500+ blogs across multiple WordPress sites through an automated pipeline, utlizing Wordress REST API & GPT-4o to assign categories, tags and excerpts, with featured image upload, SEO slugs, and batch publishing.
+9. Published 500+ blogs across multiple WordPress sites through an automated pipeline, utilizing WordPress REST API & GPT-4o to assign categories, tags and excerpts, with featured image upload, SEO slugs, and batch publishing.
 
 10. Evaluated AI app usage patterns across application types, user interactions, and engagement metrics to identify opportunities for improving app discovery and platform adoption.
 
