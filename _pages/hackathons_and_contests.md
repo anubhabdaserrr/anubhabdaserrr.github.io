@@ -13,6 +13,7 @@ nav: false
 **Date:** 5-7 March 2021
 **Rank:** 14 out of 126 participants (Top 11.11%; 88.89th percentile)
 **Team:** Me (Team Lead), [Dyuti Ghosh](https://www.linkedin.com/in/dyuti-ghosh-bb440216a), [Rahul Singha](https://www.linkedin.com/in/rahul-singha-6ab55817a)
+**Verify ranking:** []()
 **Solution:** [GitHub (Code)](https://github.com/anubhabdaserrr/cs-undergrad-projects-hackathons/aurora-roundhacks-2021)
 **Hackathon Certificate:** [[To fix] Link](https://drive.google.com/file/d/1kcUL51QUjhLYCAyq71_r6qZmJTFSRiyC/view?usp=drive_link)
 
